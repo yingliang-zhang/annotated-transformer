@@ -1,0 +1,14 @@
+name: annotated-transformer
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10.13
+  - pytorch=2.2.0
+  - torchvision=0.17.0
+  - matplotlib
+  - pip
+  - tqdm
+  - pip:
+    - -r requirements.txt
